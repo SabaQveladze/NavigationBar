@@ -6,10 +6,10 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.example.navigationbar.R
 
-class FragmentTwo: Fragment(R.layout.fragment_two) {
+class fragmentTwo: Fragment(R.layout.fragment_two) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        view.findViewById<TextView>(R.id.textView).text = FragmentTwoArgs.fromBundle(requireArguments()).amount.toString()
+        view.findViewById<TextView>(R.id.textView).text = fragmentTwoArgs.fromBundle(requireArguments()).amount.toString()
     }
 }

@@ -6,6 +6,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomappbar.BottomAppBar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -21,12 +22,9 @@ class MainActivity : AppCompatActivity() {
             setOf(
                 R.id.homeFragment,
                 R.id.dashboardFragment,
-                R.id.notificationFragment
-
-
-
+                R.id.notificationFragment,
+                R.id.colorFragment
             )
-
         )
         setupActionBarWithNavController(controller,appBarConfig)
         navView.setupWithNavController(controller)

@@ -18,8 +18,8 @@
     <fragment
         android:id="@+id/dashboardFragment"
         tools:layout="@layout/fragment_two"
-        android:name="com.example.navigationbar.fragments.FragmentTwo"
-        android:label="fragmentTwo" >
+        android:name="com.example.navigationbar.fragments.fragmentTwo"
+        android:label="FragmentTwo" >
 
         <argument android:name="amount"
                     app:argType="integer"
@@ -31,4 +31,9 @@
         tools:layout="@layout/fragment_three"
         android:name="com.example.navigationbar.fragments.fragmentThree"
         android:label="fragmentThree" />
+    <fragment
+        android:id="@+id/colorFragment"
+        tools:layout="@layout/fragment_four"
+        android:name="com.example.navigationbar.fragments.fragmentFour"
+        android:label="fragmentFour" />
 </navigation>

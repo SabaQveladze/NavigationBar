@@ -12,5 +12,8 @@
     <item android:id="@+id/notificationFragment"
         android:icon="@drawable/ic_baseline_notifications_24"
         android:title="Notification"/>
+    <item android:id="@+id/colorFragment"
+        android:icon="@drawable/ic_baseline_touch_app_24"
+        android:title="RandColor"/>
 
 </menu>
