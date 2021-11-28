@@ -18,11 +18,11 @@
     <fragment
         android:id="@+id/dashboardFragment"
         tools:layout="@layout/fragment_two"
-        android:name="com.example.navigationbar.fragments.fragmentTwo"
+        android:name="com.example.navigationbar.fragments.FragmentTwo"
         android:label="fragmentTwo" >
 
-        <argument android:name="Amount"
-                    app:argType="Integer"
+        <argument android:name="amount"
+                    app:argType="integer"
             android:defaultValue="-1"
             />
     </fragment>
